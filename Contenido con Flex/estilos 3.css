@@ -1,0 +1,25 @@
+body{
+    margin: 0;   
+}
+.menu-navegacion{
+    /* color de fondo */
+    background-color: #729e2e;
+    /* relleno de 10 pixeles*/
+    padding: 10px;
+    margin: 0;
+}
+/* las clases se asignan con un punto al princio */
+.menu-navegacion li{
+    display: inline-block;
+}
+/* Esto es lo que me cambia el color de las letras */
+.menu-navegacion a{
+    color: antiquewhite;
+    /* esto es para poder sacarle la linea abajo del enlace */
+    text-decoration: none;
+}
+/* Pseudo selector */
+/* esta sirve para cuando nos posicionesmos sobre la palabra que queremos seleccionar, en el fondo le haga un recuadro*/
+.menu-navegacion a:hover{
+    background-color: black;
+}

@@ -1,0 +1,12 @@
+/*Comentarios en css*/
+/*estamos pidiendole que tenga un borde solido de un picxel de espesor y qeu el bordea sea negro*/
+.border-box{
+    border:solid 1px black;
+    margin: 50px;
+    /*padding es para un relleno interno y este agrega un margen interno*/
+    padding: 20px;
+}
+/*Modelo en Cascada*/
+p{
+    color: blue;
+}

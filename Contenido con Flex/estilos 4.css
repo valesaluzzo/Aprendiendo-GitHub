@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+.Contenedor{
+    /* Esto funciona para que las imagenes o texto que introduzcamos en BODY, se vean uno al lado de otro */
+
+    display: flex; 
+    /* justificacion o ubicacion del contenido */
+    /* al poner CENTER: nos centraliza el contenido en el navegador, al poner END: nos lleva el contenido al final del navegador del lado derecho, al poner START: nos lleva el contenido al principio del navegador del lado izquierdo */
+    justify-content: end;
+}

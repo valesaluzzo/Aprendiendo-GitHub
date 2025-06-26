@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+.Contenedor{
+    display: flex; 
+    flex-wrap: wrap;
+}
+.box img{
+    width: 25%;
+}
+.box img{
+    width: 100%;
+}
